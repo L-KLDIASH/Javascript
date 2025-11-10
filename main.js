@@ -1,12 +1,17 @@
 const userName = "Luka Kldiashvili";
 console.log(userName, typeof userName);
+
 let dayOfWeek = "Monday";
 const favoriteActivity = "code writing";
+
 let userAge = 22;
 console.log(userAge, typeof userAge);
+
 const isStudent = true;
 console.log(isStudent, typeof isStudent);
+
 const learnsCoding = true;
 console.log(learnsCoding, typeof learnsCoding);
-const greeting = `Hi, my name is ${userName}! Today is ${dayOfWeek}, a perfect day for ${favoriteActivity}.`;
-console.log(greeting);
+
+const introduction = `Hi, my name is ${userName}! Today is ${dayOfWeek}, a perfect day for ${favoriteActivity}.`;
+console.log(introduction);
